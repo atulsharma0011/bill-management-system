@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Purchase Bills Pending</h2>
+</table>
+<button id="addBillButton">Add Bill</button>
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Tracking Number</th>
+    <th>Name of Item</th>
+    <th>Initial Quantity</th>
+    <th>Pending Quantity</th>
+    <th>Rate (Disc %)</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td colspan="7">Goods Recd. but Bills not Recd.:</td>
+  </tr>
+  <tr>
+    <td>5-Apr-2024</td>
+    <td>2</td>
+    <td>Amul Milk Chocolate</td>
+    <td>(-)20 Pcs</td>
+    <td>40 Pcs</td>
+    <td>200.00</td>
+    <td>8,000.00</td>
+  </tr>
+  <tr>
+    <td>10-Apr-2024</td>
+    <td>4</td>
+    <td>Organic Honey 1000ml</td>
+    <td>(-)10 Pcs</td>
+    <td>20 Pcs</td>
+    <td>2,500.00</td>
+    <td>50,000.00</td>
+  </tr>
+  <tr>
+    <td>30-Apr-2024</td>
+    <td>5</td>
+    <td>Bourbon Biscuits</td>
+    <td>(-)10 Pcs</td>
+    <td>20 Pcs</td>
+    <td>13.00</td>
+    <td>260.00</td>
+  </tr>
+  <tr>
+    <td>18-Oct-2024</td>
+    <td>8</td>
+    <td>Axe Signature 122ml</td>
+    <td>(-)5 Pcs</td>
+    <td>5 Pcs</td>
+    <td>134.00</td>
+    <td>670.00</td>
+  </tr>
+  <tr>
+    <td>15-Nov-2024</td>
+    <td>10</td>
+    <td>Cabbury's Dairy Milk</td>
+    <td>(-)15 Pcs</td>
+    <td>15 Pcs</td>
+    <td>14.00 (5%)</td>
+    <td>199.50</td>
+  </tr>
+  <tr>
+    <td>20-Dec-2024</td>
+    <td>12</td>
+    <td>Lijjat Papad</td>
+    <td>(-)15 Pcs</td>
+    <td>15 Pcs</td>
+    <td>50.00</td>
+    <td>750.00</td>
+  </tr>
+  <tr>
+    <td>30-Mar-2024</td>
+    <td>AVN7</td>
+    <td>Balaji Foods - Papad</td>
+    <td>24 Pcs</td>
+    <td>24 Pcs</td>
+    <td>28.00 (10%)</td>
+    <td>604.80</td>
+  </tr>
+  <tr>
+    <td>30-Mar-2024</td>
+    <td>AVN7</td>
+    <td>Lijjat Papad</td>
+    <td>50 Pcs</td>
+    <td>50 Pcs</td>
+    <td>50.00 (2%)</td>
+    <td>2,450.00</td>
+  </tr>
+  <tr>
+    <td colspan="7">Bills Recd. but Goods not Recd.:</td>
+  </tr>
+  <tr>
+    <td>17-Jul-2024</td>
+    <td>Honey1</td>
+    <td>Organic Honey 1000ml</td>
+    <td>(-)30 Pcs</td>
+    <td>(-)30 Pcs</td>
+    <td>2,536.00</td>
+    <td>(-)76,080.00</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>(-)30 Pcs</td>
+    <td>(-)30 Pcs</td>
+    <td></td>
+    <td>(-)76,080.00</td>
+  </tr>
+  <tr>
+    
+
+
+
+
+<script>
+  const addBillButton = document.getElementById('addBillButton');
+
+  addBillButton.addEventListener('click', () => {
+    // Implement your logic to add a new bill entry here. 
+    // This could involve:
+    // 1. Creating a new table row element
+    // 2. Populating the row with the new bill data
+    // 3. Appending the new row to the table body
+  });
+</script>
+
+</body>
+</html>
